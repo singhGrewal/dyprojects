@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/react-boilerplate-lite-not-so-lite.iml" filepath="$PROJECT_DIR$/.idea/react-boilerplate-lite-not-so-lite.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../singhprojects/.idea/singhprojects.iml" filepath="$PROJECT_DIR$/../singhprojects/.idea/singhprojects.iml" />
     </modules>
   </component>
 </project>
