@@ -12,15 +12,14 @@ class TodoSearch extends React.Component {
     var searchText = this.refs.searchText.value;
     
     this.props.onSearch(showCompleted , searchText)
-    
-    
-    
-    
   }
-  
   render() {
     return (
       <div>
+        <form>
+          <input type="text" name="search" placeholder="Search.."/>
+        </form>
+        
         <div>
           <input type="search" ref="searchText" placeholder="Search Todo" onChange={this.handleSearch}/>
         </div>

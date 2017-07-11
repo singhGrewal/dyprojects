@@ -58,7 +58,7 @@ class Todo extends React.Component {
   render() {
     return (
       <div className="container">
-        <h2>Todo React App</h2>
+        <h2 className="text-center">Todo React App</h2>
         <TodoSearch onSearch={this.handleSearch}/>
         <TodoList todos={this.state.todos}/>
         <AddTodo onAddTodo={this.handleAddTodo}/>
