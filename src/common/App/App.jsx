@@ -4,8 +4,8 @@ import { Route, Switch } from "react-router-dom";
 import Navigation from "../Navigation/Navigation";
 import Home from "../Home/Home";
 import Posts from "../../posts/Posts/Posts";
-import Resume from "../../Resume/Resume.js";
-import TodoApp from "../Todo/TodoApp.js";
+import Resume from "../../Resume/Resume";
+import TodoApp from "../../Todo/TodoApp";
 import NotFound from "../NotFound/NotFound";
 import RedirectWithStatus from "../RedirectWithStatus/RedirectWithStatus";
 
