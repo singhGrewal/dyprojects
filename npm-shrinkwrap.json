@@ -3441,6 +3441,12 @@
         }
       }
     },
+    "node-uuid": {
+      "version": "1.4.8",
+      "from": "node-uuid@latest",
+      "resolved": "https://registry.npmjs.org/node-uuid/-/node-uuid-1.4.8.tgz",
+      "dev": true
+    },
     "normalize-package-data": {
       "version": "2.3.8",
       "from": "normalize-package-data@>=2.3.2 <3.0.0",

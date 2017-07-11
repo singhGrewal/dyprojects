@@ -12,16 +12,16 @@ class AddTodo extends React.Component {
 	
 	handleSubmit(e) {
 		e.preventDefault();
-		var todoText = this.refs.todoText.value;
+		let todoText = this.refs.todoText.value;
 		console.log('todoText' , todoText);
 		
-		// if (todoText.length > 0) {
-		// 	this.refs.todoText.value = "";
-		// 	this.props.onAddTodo(todoText);
-		//
-		// } else {
-		// 	this.refs.todoText.focus();
-		// }
+		if (todoText.length > 0) {
+			this.refs.todoText.value = "";
+			this.props.onAddTodo(todoText);
+
+		} else {
+			this.refs.todoText.focus();
+		}
 	}
 	
 	
