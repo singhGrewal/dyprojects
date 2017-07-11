@@ -1,15 +1,14 @@
-import React, {Component} from 'react';
-import getresume from './Components/getresume.json';
+import React, { Component } from "react";
+import getresume from "./Components/getresume.json";
 
 
-import Experience from './Components/Experience.js';
-import Projects from './Components/Projects.js';
-import Skills from './Components/Skills.js';
-import Education from './Components/Education.js';
+import Experience from "./Components/Experience";
+import Projects from "./Components/Projects";
+import Skills from "./Components/Skills";
+import Education from "./Components/Education";
 // import './App.css';
 
 class Resume extends Component {
-  
   renderExperience() {
     let resultArray = [];
     getresume.experiences.map((item, i) => {
@@ -126,20 +125,17 @@ class Resume extends Component {
             </h2>
             <div className="intro">
               <p>You can list your side projects or open source libraries in this section. Lorem ipsum
-                dolor sit amet,
-                consectetur adipiscing elit. Vestibulum et ligula in nunc bibendum fringilla a eu
+                dolor sit amet,consectetur adipiscing elit. Vestibulum et ligula in nunc bibendum fringilla a eu
                 lectus.</p>
             </div>
             {this.renderProjects()}
           </section>
-          
           <section className="skills-section section">
             <h2 className="section-title"><i className="fa fa-rocket"/>Skills &amp; Proficiency</h2>
             <div className="skillset">
               {this.renderSkills()}
             </div>
           </section>
-        
         </div>
       </div>
     );
